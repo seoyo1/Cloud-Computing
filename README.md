@@ -16,15 +16,15 @@
 - (작성중)[서버 코드]()
 
 ## 폴더
-폴더는 다음과 같습니다.
-- [WEEK1](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK1)
- - 1주차에 진행된 모든 자료들이 보관되는 폴더</br>
-- [WEEK2](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK2)
- - 2주차에 진행된 모든 자료들이 보관되는 폴더</br>
-- [WEEK3](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK3)
- - 3주차에 진행된 모든 자료들이 보관되는 폴더</br>
-- [Capture](https://github.com/seoyo1/Cloud-Computing/tree/master/Capture) 
- - 프로젝트를 진행할 때 나오는 캡처 파일들을 보관하는 폴더 
+폴더는 다음과 같습니다.</br>
+- [WEEK1](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK1)</br>
+  - 1주차에 진행된 모든 자료들이 보관되는 폴더</br>
+- [WEEK2](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK2)</br>
+  - 2주차에 진행된 모든 자료들이 보관되는 폴더</br>
+- [WEEK3](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK3)</br>
+  - 3주차에 진행된 모든 자료들이 보관되는 폴더</br>
+- [Capture](https://github.com/seoyo1/Cloud-Computing/tree/master/Capture)</br> 
+  - 프로젝트를 진행할 때 나오는 캡처 파일들을 보관하는 폴더 
 
 
 ## 팀원 및 역할
