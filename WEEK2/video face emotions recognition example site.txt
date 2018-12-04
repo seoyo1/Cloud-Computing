@@ -1,0 +1,1 @@
+https://aws.amazon.com/ko/blogs/machine-learning/analyze-emotion-in-video-frame-samples-using-amazon-rekognition-on-aws/
