@@ -7,7 +7,7 @@
 ## 보고서
 매 주차별 제출물은 다음과 같습니다.</br>
 - [<1주차> 아이디어 제안](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK1/IdeaProposal.md)
-- (작성중)[<2주차> 중간보고서]()
+- [<2주차> 중간보고서](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK2/InterimReport.md)
 - (작성중)[<3주차> 최종보고서]()
 - (작성중)[Presentation 파일]()
 
