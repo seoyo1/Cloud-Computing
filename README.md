@@ -11,10 +11,6 @@
 - (작성중)[<3주차> 최종보고서]()
 - (작성중)[Presentation 파일]()
 
-## 코드
-다음은 서버의 코드입니다.
-- (작성중)[서버 코드]()
-
 ## 폴더
 폴더는 다음과 같습니다.</br>
 - [WEEK1](https://github.com/seoyo1/Cloud-Computing/tree/master/WEEK1)</br>
