@@ -1,0 +1,56 @@
+import wx
+import wx.xrc
+import boto3
+import json
+import shutil
+
+filen = ''
+class MainWindow(wx.Frame):
+    filename =''
+    def __init__(self, parent, title):
+        wx.Frame.__init__(self, parent, title = title, size=(500, 400))
+        self.panel = wx.Panel(self)
+        self.label1 = wx.StaticText(self.panel,wx.ID_ANY,"Select the Input File")
+        self.fileCtrl = wx.FilePickerCtrl(self.panel, message="Select the input file name")
+        self.selectedfile = wx.TextCtrl(self.panel,wx.ID_ANY,"None",size=(490,25))
+        self.fileCtrl.Bind(wx.EVT_FILEPICKER_CHANGED, self.Selected)
+        self.button = wx.Button(self.panel, wx.ID_ANY, '¾ó±¼ ÀÎ½Ä', (20,20))
+        self.button.Bind(wx.EVT_BUTTON, self.Rekog)
+        row1 = wx.BoxSizer(wx.VERTICAL)
+        row1.Add(self.label1,0,wx.TOP | wx.RIGHT,5)
+        row1.Add(self.fileCtrl)
+        row1.Add(self.selectedfile)
+        row1.Add(self.button)
+        self.panel.SetSizer(row1)
+        self.Show()
+    def Selected(self, event):
+        self.selectedfile.SetValue(self.fileCtrl.GetPath())
+        original = self.fileCtrl.GetPath()
+        newpath = 'C:/Users/Administrator/PycharmProjects/untitled2'
+        shutil.move(original, newpath)
+        lt = original.split('\\')
+        self.filename = lt[-1]
+
+    def Rekog(self, event):
+        photo = self.filename
+        bucket = 'rekogtest13'
+        client = boto3.client('rekognition')
+        s3 = boto3.client('s3')
+
+        s3.upload_file(photo, bucket, photo)
+
+        response = client.detect_faces(Image={'S3Object': {'Bucket': bucket, 'Name': photo}}, Attributes=['ALL'])
+
+        print('Detected faces for ' + photo)
+        for faceDetail in response['FaceDetails']:
+            print('The detected face is between ' + str(faceDetail['AgeRange']['Low'])
+                  + ' and ' + str(faceDetail['AgeRange']['High']) + ' years old')
+            print('Here are the other attributes:')
+            print(json.dumps(faceDetail, indent=4, sort_keys=True))
+
+
+
+if __name__ == '__main__' :
+    app = wx.App(False)
+    win = MainWindow(None, "File selector")
+    app.MainLoop()
