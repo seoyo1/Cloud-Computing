@@ -11,12 +11,12 @@ Amazon Rekognition과 같은 AWS의 서비스는 액세스 할 때 자격 증명
  - AWS ID 및 액세스 관리 (IAM)를 사용하여 IAM 사용자를 생성
    - AWS 계정을 사용하여 IAM 콘솔에 AWS 계정 루트 사용자로 로그인합니다.
    - 탐색 창에서 사용자를 선택한 다음 사용자 추가를 선택합니다
-   - 사용자의 이름을 입력하고 AWS Management Console 액세스를 체크하고 사용자 지정 비밀 번호를 설정한 다음 텍스트 상자에 새 암호를 입력합니다.</br> 다음: 권한을 누르세요.
-  ![Style Images]()
+   - 사용자의 이름을 입력하고 AWS Management Console 액세스를 체크하고 사용자 지정 비밀 번호를 설정한 다음 텍스트 상자에 새 암호를 입력합니다.</br> 다음: 권한을 누르세요. </br>
+  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step1.png)
    - 상단에 그룹에 사용자를 추가를 선택하고 그룹 생성을 선택 하십시오
-   - 그룹 이름을 설정하고 정책 필터에서 AWS 관리 – 직무로 설정하고 AdministratorAccess를 선택합니다. 그런 다음 그룹 생성을 선택 하십시오.
-  ![Style Images]()
-  ![Style Images]()
+   - 그룹 이름을 설정하고 정책 필터에서 AWS 관리 – 직무로 설정하고 AdministratorAccess를 선택합니다. 그런 다음 그룹 생성을 선택 하십시오.</br>
+  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step2.png)
+  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step3.png)
  - AWS CLI 및 AWS SDK 설정
 ```
 다음 단계에서는이 설명서의 예제에 사용되는 AWS CLI (Command Line Interface) 및 AWS SDK를 설치하는 방법을 보여줍니다.
@@ -25,16 +25,16 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
 ``` 
    - 사용할 AWS CLI 및 AWS SDK를 다운로드 하여 설치하십시오.</br>
    [Python용 sdk] (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)</br>
-   [AWS CLI] (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+   [AWS CLI] (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)</br>
    - IAM 사용자 만들기에서 만든 사용자의 액세스 키를 만듭니다.
      - IAM 콘솔의 탐색 창에서 사용자를 선택합니다.
      - IAM 사용자 만들기에서 만든 사용자 이름을 선택합니다. 
      - 보안 자격 증명 탭을 선택합니다.
      - 액세스 키 생성을 선택 합니다. 그런 다음 .csv 파일 다운로드를 선택하여 액세스 키 ID와 비밀 액세스 키를 컴퓨터의 CSV파일에 저장합니다.
      
-   ![Style Images]()
+   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step4.png)
    - AWS CLI를 설치한 다음 명령 프롬프트에서 aws configure를 입력하여 AWS SDK에 대한 자격 증명 및 지역구성을 설정합니다.
-   ![Style Images]()
+   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step5.png)
    
  - S3 버킷 생성
 ```
@@ -42,7 +42,7 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
 ```
   - AWS 서비스에서 스토리지의 S3를 선택합니다.
   - 버킷 만들기를 클릭하여 버킷이름을 설정하고 다음을 눌러 버킷을 생성합니다
-  ![Style Images]()
+  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step6.png)
 - 이후엔 Python을 통해 코드작업을 합니다.
 [코드]()
 
