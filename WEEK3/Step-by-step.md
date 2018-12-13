@@ -3,7 +3,10 @@
 
 ## IAM 계정 생성
 ```
-Amazon Rekognition과 같은 AWS의 서비스는 액세스 할 때 자격 증명을 제공해야합니다.</br> 이는 서비스가 해당 서비스가 소유 한 리소스에 액세스 할 수있는 권한이 있는지 여부를 확인할 수 있도록하기위한 것입니다.</br> 콘솔에 암호가 필요합니다.</br> AWS 계정에 대한 액세스 키를 만들어 AWS CLI 또는 API에 액세스 할 수 있습니다.</br> 그러나 AWS 계정에 대한 자격 증명을 사용하여 AWS에 액세스하지 않는 것이 좋습니다.</br> 대신 다음과 같이하는 것이 좋습니다.
+Amazon Rekognition과 같은 AWS의 서비스는 액세스 할 때 자격 증명을 제공해야합니다.
+이는 서비스가 해당 서비스가 소유 한 리소스에 액세스 할 수있는 권한이 있는지 여부를 확인할 수 있도록하기위한 것입니다.
+콘솔에 암호가 필요합니다.</br> AWS 계정에 대한 액세스 키를 만들어 AWS CLI 또는 API에 액세스 할 수 있습니다.
+그러나 AWS 계정에 대한 자격 증명을 사용하여 AWS에 액세스하지 않는 것이 좋습니다.</br> 대신 다음과 같이하는 것이 좋습니다.
 ```
  - AWS ID 및 액세스 관리 (IAM)를 사용하여 IAM 사용자를 생성
    - 1.	AWS 계정을 사용하여 IAM 콘솔에 AWS 계정 루트 사용자로 로그인합니다.
@@ -16,7 +19,9 @@ Amazon Rekognition과 같은 AWS의 서비스는 액세스 할 때 자격 증명
    이미지
  - AWS CLI 및 AWS SDK 설정
 ```
-다음 단계에서는이 설명서의 예제에 사용되는 AWS CLI (Command Line Interface) 및 AWS SDK를 설치하는 방법을 보여줍니다.</br> AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.</br> 이 가이드의 예제는 AWS CLI 명령 및 AWS SDK API 작업 호출에 기본 자격 증명 프로필을 사용한다고 가정합니다.
+다음 단계에서는이 설명서의 예제에 사용되는 AWS CLI (Command Line Interface) 및 AWS SDK를 설치하는 방법을 보여줍니다.
+AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
+이 가이드의 예제는 AWS CLI 명령 및 AWS SDK API 작업 호출에 기본 자격 증명 프로필을 사용한다고 가정합니다.
 ``` 
    - 1.	사용할 AWS CLI 및 AWS SDK를 다운로드 하여 설치하십시오.</br>
    [Python용 sdk] (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)</br>
