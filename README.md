@@ -27,7 +27,7 @@
   - [절차도]()
 
 ## 코드
- - 
+ - 프로젝트 수행중 작성해야할 코드
   - [코드](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK3/rekog%20pyhton.txt)
 
 ## 팀 구성원
