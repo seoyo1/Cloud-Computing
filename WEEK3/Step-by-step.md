@@ -32,11 +32,11 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
      - IAM 콘솔의 탐색 창에서 사용자를 선택합니다.
      - IAM 사용자 만들기에서 만든 사용자 이름을 선택합니다. 
      - 보안 자격 증명 탭을 선택합니다.
-     - 액세스 키 생성을 선택 합니다. 그런 다음 .csv 파일 다운로드를 선택하여 액세스 키 ID와 비밀 액세스 키를 컴퓨터의 CSV파일에 저장합니다.
+     - 액세스 키 생성을 선택 합니다. 그런 다음 .csv 파일 다운로드를 선택하여 액세스 키 ID와 비밀 액세스 키를 컴퓨터의 CSV파일에 저장합니다.</br>
      
-   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step4.png)
+   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step4.png)</br>
    
-   - AWS CLI를 설치한 다음 명령 프롬프트에서 aws configure를 입력하여 AWS SDK에 대한 자격 증명 및 지역구성을 설정합니다.
+   - AWS CLI를 설치한 다음 명령 프롬프트에서 aws configure를 입력하여 AWS SDK에 대한 자격 증명 및 지역구성을 설정합니다.</br>
    ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step5.png)
    
  - S3 버킷 생성
@@ -45,7 +45,7 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
 ```
   - AWS 서비스에서 스토리지의 S3를 선택합니다.
   
-  - 버킷 만들기를 클릭하여 버킷이름을 설정하고 다음을 눌러 버킷을 생성합니다
+  - 버킷 만들기를 클릭하여 버킷이름을 설정하고 다음을 눌러 버킷을 생성합니다</br>
   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step6.png)</br>
   
 - 이후엔 Python을 통해 코드작업을 합니다.
