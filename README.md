@@ -22,6 +22,13 @@
 - [Capture](https://github.com/seoyo1/Cloud-Computing/tree/master/Capture)</br> 
   - 프로젝트를 진행할 때 나오는 캡처 파일들을 보관하는 폴더 
 
+## 절차도
+ - 절차도를 따라 구현하시면 프로젝트를 이해하실 수 있습니다.
+  - [절차도]()
+
+## 코드
+ - 
+  - [코드]()
 
 ## 팀 구성원
  - 임승현	20145159</br>
