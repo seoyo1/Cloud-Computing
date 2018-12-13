@@ -1,7 +1,7 @@
 ## 프로젝트 진행상황
 
 - 구성도 </br>
-  ![구성도](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/KakaoTalk_20181203_215424524.png)</br>
+  ![구성도](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/%EC%A1%B0%EC%A7%81%EB%8F%84.PNG)</br>
  
  - AWS의 S3 버킷을 생성하여 해당 버킷에 감정을 분석할 사진을 업로드 시킵니다.</br>
 Python용 AWS SDK인 Boto3와 추가로 Json을 이용하여 버킷에 저장되어있는 이미지를 불러옵니다.</br> 
