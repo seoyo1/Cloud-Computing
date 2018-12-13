@@ -24,7 +24,7 @@
 ## 어플리케이션의 구성도
 
 - 그림 </br>
-  ![구성도](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/KakaoTalk_20181203_215424524.png)</br>
+  ![구성도](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/%EC%A1%B0%EC%A7%81%EB%8F%84.PNG)</br>
   
 
 
