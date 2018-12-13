@@ -17,6 +17,7 @@ Amazon Rekognition과 같은 AWS의 서비스는 액세스 할 때 자격 증명
    - 그룹 이름을 설정하고 정책 필터에서 AWS 관리 – 직무로 설정하고 AdministratorAccess를 선택합니다. 그런 다음 그룹 생성을 선택 하십시오.</br>
   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step2.png)
   ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step3.png)
+  
  - AWS CLI 및 AWS SDK 설정
 ```
 다음 단계에서는이 설명서의 예제에 사용되는 AWS CLI (Command Line Interface) 및 AWS SDK를 설치하는 방법을 보여줍니다.
@@ -26,6 +27,7 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
    - 사용할 AWS CLI 및 AWS SDK를 다운로드 하여 설치하십시오.</br>
    [Python용 sdk] (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)</br>
    [AWS CLI] (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)</br>
+   
    - IAM 사용자 만들기에서 만든 사용자의 액세스 키를 만듭니다.
      - IAM 콘솔의 탐색 창에서 사용자를 선택합니다.
      - IAM 사용자 만들기에서 만든 사용자 이름을 선택합니다. 
@@ -33,6 +35,7 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
      - 액세스 키 생성을 선택 합니다. 그런 다음 .csv 파일 다운로드를 선택하여 액세스 키 ID와 비밀 액세스 키를 컴퓨터의 CSV파일에 저장합니다.
      
    ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step4.png)
+   
    - AWS CLI를 설치한 다음 명령 프롬프트에서 aws configure를 입력하여 AWS SDK에 대한 자격 증명 및 지역구성을 설정합니다.
    ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step5.png)
    
@@ -41,9 +44,11 @@ AWS SDK 호출을 인증하는 여러 가지 방법이 있습니다.
 이미지를 인식하기 위해 파일을 업로드 시킬 S3 버킷을 생성합니다
 ```
   - AWS 서비스에서 스토리지의 S3를 선택합니다.
+  
   - 버킷 만들기를 클릭하여 버킷이름을 설정하고 다음을 눌러 버킷을 생성합니다
-  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step6.png)
+  ![Style Images](https://github.com/seoyo1/Cloud-Computing/blob/master/Capture/step6.png)</br>
+  
 - 이후엔 Python을 통해 코드작업을 합니다.
-[코드]()
+[코드](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK3/rekog%20pyhton.txt)
 
 
