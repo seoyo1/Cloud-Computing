@@ -28,7 +28,7 @@
 
 ## 코드
  - 
-  - [코드]()
+  - [코드](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK3/rekog%20pyhton.txt)
 
 ## 팀 구성원
  - 임승현	20145159</br>
