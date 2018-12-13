@@ -9,7 +9,7 @@
 - [<1주차> 아이디어 제안](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK1/IdeaProposal.md)
 - [<2주차> 중간보고서](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK2/InterimReport.md)
 - [<3주차> 최종보고서](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK3/%5B600003%20CC%5D%20Project%20Week%203-%20Final%20Report%20(A%2B)%20v1.pdf)
-- (작성중)[Presentation 파일]()
+- [Presentation 파일](https://github.com/seoyo1/Cloud-Computing/blob/master/WEEK3/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_5%EC%A1%B0.pptx)
 
 ## 폴더
 폴더는 다음과 같습니다.</br>
